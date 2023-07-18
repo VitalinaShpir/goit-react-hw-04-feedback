@@ -1,0 +1,26 @@
+.feedbackBtn {
+  /* margin-left: 20px; */
+  border: 1px solid gray;
+  box-shadow: 10px 5px 5px rgb(118, 118, 118);
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  font-style: italic;
+  text-shadow: 1px 1px 2px fuchsia;
+  text-transform: capitalize;
+  transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.feedbackBtn:hover,
+.feedbackBtn:focus {
+  border: 1px solid fuchsia;
+  box-shadow: 10px 5px 5px fuchsia;
+}
+
+.feedbackBox {
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
